@@ -19,13 +19,13 @@
 #### Citation
 
 If you use our code/dataset in your research or wish to refer to the baseline results, please use the following BibTeX entry.
-
-@inproceedings{gu2022CAL,
-    title={Clothes-Changing Person Re-identification with RGB Modality Only},
-    author={Gu, Xinqian and Chang, Hong and Ma, Bingpeng and Bai, Shutao and Shan, Shiguang and Chen, Xilin},
-    booktitle={CVPR},
-    year={2022},
-}
+    
+    @inproceedings{gu2022CAL,
+        title={Clothes-Changing Person Re-identification with RGB Modality Only},
+        author={Gu, Xinqian and Chang, Hong and Ma, Bingpeng and Bai, Shutao and Shan, Shiguang and Chen, Xilin},
+        booktitle={CVPR},
+        year={2022},
+    }
 
 #### Related Repos
 
