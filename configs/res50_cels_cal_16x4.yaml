@@ -1,0 +1,9 @@
+MODEL:
+  NAME: resnet50
+DATA:
+  NUM_INSTANCES: 4
+  TRAIN_BATCH: 32
+LOSS:
+  CLA_LOSS: crossentropylabelsmooth
+  CAL: cal
+TAG: res50-cels-cal-16x4

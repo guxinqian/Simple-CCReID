@@ -1,0 +1,6 @@
+MODEL:
+  NAME: c2dres50
+LOSS:
+  CLA_LOSS: crossentropy
+  CAL: cal
+TAG: c2dres50-ce-cal
