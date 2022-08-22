@@ -9,9 +9,9 @@ _C = CN()
 # -----------------------------------------------------------------------------
 _C.DATA = CN()
 # Root path for dataset directory
-_C.DATA.ROOT = '/home/guxinqian/data'
+_C.DATA.ROOT = '/home/minhhuy/Desktop/Python/Simple-CCReID/CCVID'
 # Dataset for evaluation
-_C.DATA.DATASET = 'ltcc'
+_C.DATA.DATASET = 'ccvid'
 # Workers for dataloader
 _C.DATA.NUM_WORKERS = 4
 # Height of input image
@@ -19,7 +19,7 @@ _C.DATA.HEIGHT = 384
 # Width of input image
 _C.DATA.WIDTH = 192
 # Batch size for training
-_C.DATA.TRAIN_BATCH = 32
+_C.DATA.TRAIN_BATCH = 64
 # Batch size for testing
 _C.DATA.TEST_BATCH = 128
 # The number of instances per identity for training sampler
@@ -120,7 +120,7 @@ _C.EVAL_MODE = False
 # GPU device ids for CUDA_VISIBLE_DEVICES
 _C.GPU = '0'
 # Path to output folder, overwritten by command line argument
-_C.OUTPUT = '/data/guxinqian/logs/'
+_C.OUTPUT = 'data/CCVID/logs/'
 # Tag of experiment, overwritten by command line argument
 _C.TAG = 'res50-ce-cal'
 

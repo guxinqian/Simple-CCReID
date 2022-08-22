@@ -12,7 +12,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.optim import lr_scheduler
 from torch import distributed as dist
-from apex import amp
+import torch.cuda.amp
 
 from configs.default_img import get_img_config
 from configs.default_vid import get_vid_config
@@ -195,6 +195,7 @@ if __name__ == '__main__':
         output_file = osp.join(config.OUTPUT, 'log_train_.log')
     else:
         output_file = osp.join(config.OUTPUT, 'log_test.log')
+    print(os.path.abspath(output_file))
     logger = get_logger(output_file, local_rank, 'reid')
     logger.info("Config:\n-----------------------------------------")
     logger.info(config)

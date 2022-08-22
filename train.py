@@ -2,7 +2,7 @@ import time
 import datetime
 import logging
 import torch
-from apex import amp
+import torch.cuda.amp
 from tools.utils import AverageMeter
 
 
